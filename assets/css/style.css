@@ -1,168 +1,149 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(143, 10, 10, 1) 100%);
+/* Header Styling */
+header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    color: #fff;
-}
-
-.header {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(55, 10, 143, 1) 100%);
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
-    max-width: 800px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    animation: fadeIn 2s ease-in-out;
-    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-.container iframe {
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.tiles {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.tile {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    border-radius: 10px;
-    width: 150px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    transition: transform 0.3s, background-color 0.3s;
-    text-decoration: none;
-    color: #fff;
-}
-
-.tile:hover {
-    transform: translateY(-10px);
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.tile img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.tile h3 {
-    margin: 10px 0 0;
-}
-
-.details {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
-    justify-content: center;
-    font-size: 1.1em;
-}
-
-.details p {
-    margin: 5px 0;
-}
-
-.sidebar {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(68, 68, 68, 0.8);
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    transition: width 0.3s, height 0.3s;
-    overflow: hidden;
-    z-index: 1000;
-}
-
-.sidebar.open {
-    width: 200px;
-    height: auto;
-    padding: 20px;
-}
-
-.sidebar ul {
-    list-style: none;
-    padding: 0;
+header h1 {
+    font-size: 2em;
     margin: 0;
-    display: none;
+    animation: fadeInDown 2s ease-in-out;
 }
 
-.sidebar.open ul {
-    display: block;
+header nav {
+    display: flex;
+    gap: 15px;
 }
 
-.sidebar ul li {
-    margin: 15px 0;
-}
-
-.sidebar ul li a {
+header nav a {
     color: #fff;
     text-decoration: none;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
-.sidebar-toggle {
-    cursor: pointer;
+header nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
-.container .highlight {
-    background-color: lightblue;
+/* Main Content Styling */
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.main-content h1 {
+    font-size: 5em;
+    margin: 0;
+    position: relative;
+}
+
+.main-content h1::before, .main-content h1::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    height: 3px;
+    background: #fff;
+}
+
+.main-content h1::before {
+    left: -210px;
+}
+
+.main-content h1::after {
+    right: -210px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+    animation: bounce 2s infinite;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+/* Card Styling */
+.card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
-    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2s ease-in-out;
 }
 
+.card h2 {
+    margin-top: 0;
+}
+
+/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
 }
 
-@keyframes slideDown {
+@keyframes fadeInDown {
     from {
-        transform: translateY(-50px);
         opacity: 0;
+        transform: translateY(-20px);
     }
-
     to {
+        opacity: 1;
         transform: translateY(0);
-        opacity: 1;
     }
 }
 
-@keyframes zoomIn {
+@keyframes fadeInUp {
     from {
-        transform: scale(0.5);
         opacity: 0;
+        transform: translateY(20px);
     }
-
     to {
-        transform: scale(1);
         opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
     }
 }
