@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
     position: relative;
     overflow: hidden; /* Contain the glow effect */
 }
@@ -100,7 +100,7 @@ header nav a:hover {
 
 /* Card Styling */
 .card {
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -491,7 +491,7 @@ button6:active {
 .footer {
     text-align: center;
     padding: 2rem 0;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
