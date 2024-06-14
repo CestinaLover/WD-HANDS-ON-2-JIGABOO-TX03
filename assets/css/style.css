@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(44, 44, 44, 0.712);
     position: relative;
     overflow: hidden; /* Contain the glow effect */
 }
@@ -100,7 +100,7 @@ header nav a:hover {
 
 /* Card Styling */
 .card {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(44, 44, 44, 0.712);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -470,6 +470,24 @@ button6:active {
     animation: fireEffect 2s forwards;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* To allow absolute positioning of inner elements if needed */
+}
+
+.uploaded-image {
+    width: 100%; /* Adjust the size as necessary */
+    max-width: 500px; /* Prevents the image from being too large */
+    height: auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow around the image */
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
+}
+
+
 /* Fire effect animation */
 @keyframes fireEffect {
     0% {
@@ -491,7 +509,7 @@ button6:active {
 .footer {
     text-align: center;
     padding: 2rem 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(44, 44, 44, 0.712);
     color: white;
 }
 
