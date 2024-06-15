@@ -9,11 +9,16 @@
     <img src="./assets/img/jemoepeps.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">GITHUB ng Master Jigaboo</h3>
+  <h3 align="center">Jigaboo Rangers!!!</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Welcome to my website fellow jigaboos!.
+  Welcome to my website fellow jigaboos Rangers!.
+  Website Instructions:
+  You will first be sent to the home page where you can read my About Me and other stuff,
+  once you are done reading, you can check out the Jigaboo Rangers by cicking the buttons on the top right,
+  you can also check out the gallery by clicking the gallery button on the top right. Navigate however you wish,
+  and hope you enjoy my work!.
 </div>
 
 <br />
