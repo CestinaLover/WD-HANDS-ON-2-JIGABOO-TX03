@@ -62,7 +62,7 @@
 
 <!-- TODO: To be changed -->
 
-Description of the project in details.
+This is my Seatwork 3 for my web design class, hope you like it!
 
 Guiding Question:
 
@@ -130,9 +130,9 @@ WD-ProjectName
 
 ## My Projects
 
-| Title             | Purpose                                   | Link                                                        |
-| ----------------- | ----------------------------------------- | ----------------------------------------------------------- |
-| My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/  |
-| My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/ |
-| NONE              | NONE                                      | NONE                                                        |
-| NONE              | NONE                                      | NONE                                                        |
+| Title             | Purpose                                   | Link                                                                 |
+| ----------------- | ----------------------------------------- | -------------------------------------------------------------------- |
+| My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/           |
+| My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/          |
+| SEATWORK 3        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-3-JIGABOO-TX03/index.html |
+| NONE              | NONE                                      | NONE                                                                 |
