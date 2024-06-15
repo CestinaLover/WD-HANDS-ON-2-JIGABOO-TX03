@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Welcome to my website fellow jigaboos Rangers!.
+  Welcome to my website fellow jigaboo Rangers!.
 </div>
 
 <br />
