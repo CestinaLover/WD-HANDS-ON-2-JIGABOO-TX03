@@ -78,13 +78,18 @@ and hope you enjoy my work!.
 
 <!-- TODO: List of Key Components -->
 
-Jigaboo magic
+Home
+├─Jigaboo 1
+├─Jigaboo 2
+├─Jigaboo 3
+├─Jigaboo 4
+└─Jigaboo Gallery
 
 ### Technology
 
 <!-- TODO: List of Technology Used -->
 
-POCO phone na nanakaw
+ACER PREDATOR HELIOS NEO 16
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
