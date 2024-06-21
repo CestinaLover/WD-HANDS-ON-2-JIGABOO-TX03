@@ -97,26 +97,119 @@ POCO phone na nanakaw
 3. File Structure to follow
 
 ```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ js
-|   |   └─ script.js
-|   └─ img
-|       └─ fileWith.jpeg/.jpg/.webp/.png
-└─ pages
-|  └─ pageName
-|     └─ index.html
-|     └─ assets
-|        └─ css
-|        |  └─ style.css
-|        └─ js
-|        |  └─ script.js
-|        └─ img
-|           └─ fileWith.jpeg/.jpg/.webp/.png
-└─ index.html
+WD-SEATWORK-3-JIGABOO-TX03
+├─ assets
+│  ├─ css
+│  │  └─ style.css
+│  ├─ img
+│  │  ├─ DarkSky.jpg
+│  │  ├─ Dousy.jpg
+│  │  ├─ heatblast.png
+│  │  ├─ HotJigaboo.jpg
+│  │  ├─ jemoepeps.png
+│  │  ├─ NightSky.jpg
+│  │  ├─ nyebe_white.png
+│  │  ├─ snorlax jimbo.png
+│  │  ├─ Star Wars Galaxy Background.jpg
+│  │  └─ SungJinWoo.png
+│  └─ js
+│     └─ script.js
+├─ doc
+│  └─ emmet.txt
+├─ index.html
+├─ pages
+│  ├─ Jigaboo1
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  ├─ Jigaboo2
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  ├─ Jigaboo3
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  ├─ Jigaboo4
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  ├─ Jigaboo4 copy
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  └─ JigabooGallery
+│     ├─ assets
+│     │  ├─ css
+│     │  │  └─ style.css
+│     │  ├─ img
+│     │  │  ├─ Dousy.jpg
+│     │  │  ├─ heatblast.png
+│     │  │  ├─ HotJigaboo.jpg
+│     │  │  ├─ jemoepeps.png
+│     │  │  ├─ nyebe_white.png
+│     │  │  └─ snorlax jimbo.png
+│     │  └─ js
+│     │     ├─ script.js
+│     │     └─ scripts.js
+│     └─ index.html
 └─ readme.md
+
 ```
 
 ## Resources
