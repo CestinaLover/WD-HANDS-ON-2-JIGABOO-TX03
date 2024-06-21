@@ -35,6 +35,9 @@
     <li>
       <a href="#overview">Overview</a>
       <ol>
+      <li>
+      <a href="#Website-Instructions:">Website Instructions:</a>
+    </li>
         <li>
           <a href="#key-components">Key Components</a>
         </li>
@@ -64,20 +67,12 @@
 
 This is my Seatwork 3 for my web design class, hope you like it!
 
-Website Instructions:
+## Website Instructions:
 
 You will first be sent to the home page where you can read my About Me and other stuff,
 once you are done reading, you can check out the Jigaboo Rangers by cicking the buttons on the top right,
 you can also check out the gallery by clicking the gallery button on the top right. Navigate however you wish,
 and hope you enjoy my work!.
-
-Guiding Question:
-
-- What is the project?
-  The Project is for the sake of my grades huhu, god help me.
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
 
