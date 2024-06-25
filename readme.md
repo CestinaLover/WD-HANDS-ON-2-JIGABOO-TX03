@@ -137,11 +137,8 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │  │  └─ Volcano.png
 │  └─ js
 │     └─ script.js
-├─ doc
-│  └─ emmet.txt
-├─ index.html
-├─ pages
-│  ├─ Jigaboo1
+├─ card-gallery
+│  ├─ Noir1
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -156,7 +153,7 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  ├─ Jigaboo2
+│  ├─ Noir2
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -171,7 +168,7 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  ├─ Jigaboo3
+│  ├─ Noir3
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -186,7 +183,7 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  ├─ Jigaboo4
+│  ├─ Noir4
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -201,7 +198,7 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  └─ JigabooGallery
+│  └─ NoirGallery
 │     ├─ assets
 │     │  ├─ css
 │     │  │  └─ style.css
@@ -216,6 +213,9 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │     │     ├─ script.js
 │     │     └─ scripts.js
 │     └─ index.html
+├─ doc
+│  └─ emmet.txt
+├─ index.html
 └─ readme.md
 
 ```
