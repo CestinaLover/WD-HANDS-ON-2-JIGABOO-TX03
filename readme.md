@@ -170,15 +170,16 @@ WD-SEATWORK-3-JIGABOO-TX03
 | Title   | Purpose                               | Link                                     |
 | ------- | ------------------------------------- | ---------------------------------------- |
 | UIVERSE | A site containing UI elements for css | https://uiverse.io/buttons?orderBy=views |
-| NONE    | NONE                                  | NONE                                     |
+| CODEPEN | A site for code lovers                | https://codepen.io/trending              |
 | NONE    | NONE                                  | NONE                                     |
 | NONE    | NONE                                  | NONE                                     |
 
 ## My Projects
 
-| Title             | Purpose                                   | Link                                                                 |
-| ----------------- | ----------------------------------------- | -------------------------------------------------------------------- |
-| My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/           |
-| My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/          |
-| SEATWORK 3        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-3-JIGABOO-TX03/index.html |
-| Hands On 2        | Schoolwork                                | https://cestinalover.github.io/WD-HANDS-ON-2-JIGABOO-TX03/           |
+| Title             | Purpose                                   | Link                                                        |
+| ----------------- | ----------------------------------------- | ----------------------------------------------------------- |
+| My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/  |
+| My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/ |
+| SEATWORK 3        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-3-JIGABOO-TX03/  |
+| Hands On 2        | Schoolwork                                | https://cestinalover.github.io/WD-HANDS-ON-2-JIGABOO-TX03/  |
+| SEATWORK 4        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-4-JIGABOO-TX03/  |

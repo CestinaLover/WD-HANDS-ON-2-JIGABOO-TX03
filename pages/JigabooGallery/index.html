@@ -1,66 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aldous Exequiel S. Damaso's Resume</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hero and Card Gallery</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+<body style="background: url('/assets/img/Star Wars Galaxy Background.jpg') no-repeat center center fixed; background-size: cover;">
+    <header>
+        <button class="button1" data-text="Awesome">
+            <span class="actual-text">&nbsp;THE&nbsp;NOIRS&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;THE&nbsp;NOIRS&nbsp;</span>
+        </button>
+        <nav>
+            <button1><a href="/index.html">Home</a></button1>
+            <button2><a href="/pages/Jigaboo1/index.html">Jigaboo 1</a></button2>
+            <button3><a href="/pages/Jigaboo2/index.html">Jigaboo 2</a></button3>
+            <button4><a href="/pages/Jigaboo3/index.html">Jigaboo 3</a></button4>
+            <button5><a href="/pages/Jigaboo4/index.html">Jigaboo 4</a></button5>
+            <button6><a href="/pages/JigabooGallery/index.html">Jigaboo Gallery</a></button6>
+        </nav>
+    </header>
 
-<body>
-    <div class="header">
-        <h1>A Jigaboo's Resume</h1>
-    </div>
+    <!-- Hero Section -->
+    <section class="main-content">
+        <h1>The Noir's</h1>
+    </section>
 
-    <div class="container">
-        <h2>Links</h2>
-        <div class="tiles">
-            <a href="/WD-Seatwork-jigaboo-2-TX03/pages/page1/index.html" class="tile">
-                <img src="assets\img\snorlax jimbo.png" alt="About Me">
-                <h3>About Me</h3>
-            </a>
-            <a href="/WD-Seatwork-jigaboo-2-TX03/pages/page2/index.html" class="tile">
-                <img src="assets\img\snorlax jimbo.png" alt="My Schoolworks">
-                <h3>My Schoolworks</h3>
-            </a>
-            <a href="/WD-Seatwork-jigaboo-2-TX03/pages/page3/index.html" class="tile">
-                <img src="assets\img\snorlax jimbo.png" alt="My Projects">
-                <h3>My Projects</h3>
-            </a>
+    <!-- Card Gallery -->
+    <div class="flip-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="/assets/img/heatblast.png" alt="Heatblast" class="centered-image">
+                    <img src="/assets/img/Volcano.png" no-repeat center center fixed; background-size: cover;>
+                </div>
+                <div class="flip-card-back">
+                    <center><h1>Heatblast</h1></center>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="/assets/img/kratos.png" alt="Heatblast" class="centered-image">
+                    <img src="/assets/img/GoW.jpg" no-repeat center center fixed; background-size: cover;>
+                </div>
+                <div class="flip-card-back">
+                    <center><h1>Kratos</h1></center>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="/assets/img/SungJinWoo.png" alt="SungJinWoo" class="centered-image">
+                    <img src="/assets/img/NightSky.jpg" no-repeat center center fixed; background-size: cover;>
+                </div>
+                <div class="flip-card-back">
+                    <center><h1>Sung Jin-Woo</h1></center>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="/assets/img/Chief.png" alt="Chief" class="centered-image">
+                    <img src="/assets/img/Halo.jpg" no-repeat center center fixed; background-size: cover;>
+                </div>
+                <div class="flip-card-back">
+                    <center><h1>Master Chief</h1></center>
+                </div>
+            </div>
         </div>
     </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-    <div class="container" id="my-projects">
-        <h2>My Projects</h2>
-        <p>My First Project :)))</p>
-        <iframe src="https://drive.google.com/file/d/1ozmpui-EdplJOjdrTQyKsbiLVaMmH_h5/preview" width="640" height="480" allow="autoplay" frameborder="0"></iframe>
+    <!-- Footer -->
+    <footer class="footer">
+        <h1>Footer Section</h1>
+        <nav>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </footer>
 
-          <p>I recently completed my first project, which was an advocacy video that my friend asked me to help with.
-            It was a very enjoyable experience and it provided a great addition to my portfolio.
-            The video focused on the trust we have with our friends, which develops over the years.
-            It also explored the challenges we face in maintaining this trust,
-            as well as how misunderstandings can break the trust that has been built over many years.
-            This project was my first paid opportunity, and I received 1000 pesos for creating the video.</p>
-
-    </div>
-
-    <div class="sidebar" id="sidebar">
-        <div class="sidebar-toggle" onclick="toggleSidebar()">☰</div>
-        <ul>
-            <li><a href="/WD-Seatwork-jigaboo-2-TX03/index.html">HOME</a></li>
-            <li><a href="/WD-Seatwork-jigaboo-2-TX03/pages/page1/index.html">About Me</a></li>
-            <li><a href="/WD-Seatwork-jigaboo-2-TX03/pages/page2/index.html">My Schoolworks</a></li>
-            <li><a href="/WD-Seatwork-jigaboo-2-TX03/pages/page3/index.html">My Projects</a></li>
-        </ul>
-    </div>
-
-
-    <script>
-        function toggleSidebar() {
-            document.getElementById('sidebar').classList.toggle('open');
-        }
-    </script>
 </body>
-
 </html>
