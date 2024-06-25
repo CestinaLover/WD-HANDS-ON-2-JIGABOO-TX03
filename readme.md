@@ -9,11 +9,11 @@
     <img src="./assets/img/jemoepeps.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Jigaboo Rangers!!!</h3>
+  <h3 align="center">The Noirs!!</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Welcome to my website fellow jigaboo Rangers!.
+  Welcome to my website fellow Noirs!.
 </div>
 
 <br />
@@ -36,10 +36,14 @@
       <a href="#overview">Overview</a>
       <ol>
       <li>
+      <a href="#Description:">Website Instructions:</a>
+    </li>
+      <ol>
+      <li>
       <a href="#Website-Instructions:">Website Instructions:</a>
     </li>
         <li>
-          <a href="#key-components">Key Components</a>
+          <a href="#File-Structure">Key Components</a>
         </li>
         <li>
           <a href="#technology">Technology</a>
@@ -65,25 +69,27 @@
 
 <!-- TODO: To be changed -->
 
-This is my Seatwork 3 for my web design class, hope you like it!
+This is the overview for my shizzle dibbles
+
+## Description
+
+This is my Hands-On 2 for my web design class, hope you like it!
+The goal is to make a cool Hero and Card Display Website.
 
 ## Website Instructions:
 
 You will first be sent to the home page where you can read my About Me and other stuff,
-once you are done reading, you can check out the Jigaboo Rangers by cicking the buttons on the top right,
-you can also check out the gallery by clicking the gallery button on the top right. Navigate however you wish,
-and hope you enjoy my work!.
+once you are done reading, you can check out The Header and Footer Anims by cicking the buttons on the top right, Navigate however you wish, and hope you enjoy my work!.
 
-### Key Components
+### File Structure
 
 <!-- TODO: List of Key Components -->
 
+```
 Home
-├─Jigaboo 1
-├─Jigaboo 2
-├─Jigaboo 3
-├─Jigaboo 4
-└─Jigaboo Gallery
+├─Header Gallery
+└─Footer Gallery
+```
 
 ### Technology
 
@@ -123,7 +129,7 @@ WD-SEATWORK-3-JIGABOO-TX03
 │  └─ emmet.txt
 ├─ index.html
 ├─ pages
-│  ├─ Jigaboo1
+│  ├─ footer-gallery
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -138,67 +144,7 @@ WD-SEATWORK-3-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  ├─ Jigaboo2
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Jigaboo3
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Jigaboo4
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Jigaboo4 copy
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  └─ JigabooGallery
+│  └─ header-gallery
 │     ├─ assets
 │     │  ├─ css
 │     │  │  └─ style.css
@@ -235,4 +181,4 @@ WD-SEATWORK-3-JIGABOO-TX03
 | My Resume Project | A Project to use html to create a resume. | https://cestinalover.github.io/WD-Seatwork-jigaboo-2-TX03/           |
 | My Midterm Exam   | Midterm Grade                             | https://cestinalover.github.io/WD-Midterm-Exam-Damaso-TX03/          |
 | SEATWORK 3        | Schoolwork                                | https://cestinalover.github.io/WD-SEATWORK-3-JIGABOO-TX03/index.html |
-| NONE              | NONE                                      | NONE                                                                 |
+| Hands On 2        | Schoolwork                                | https://cestinalover.github.io/WD-HANDS-ON-2-JIGABOO-TX03/           |
