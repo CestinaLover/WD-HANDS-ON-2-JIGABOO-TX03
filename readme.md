@@ -88,7 +88,12 @@ once you are done reading, you can check out The Header and Footer Anims by cick
 ```
 Home
 ├─Header Gallery
-└─Footer Gallery
+├─Noir 1
+├─Noir 2
+├─Noir 3
+├─Noir 4
+└─Noir's Gallery
+
 ```
 
 ### Technology
@@ -108,28 +113,35 @@ ACER PREDATOR HELIOS NEO 16
 3. File Structure to follow
 
 ```
-WD-SEATWORK-3-JIGABOO-TX03
+WD-HANDS-ON-2-JIGABOO-TX03
+├─ .vscode
+│  └─ settings.json
 ├─ assets
 │  ├─ css
 │  │  └─ style.css
 │  ├─ img
+│  │  ├─ Chief.png
 │  │  ├─ DarkSky.jpg
 │  │  ├─ Dousy.jpg
+│  │  ├─ GoW.jpg
+│  │  ├─ Halo.jpg
 │  │  ├─ heatblast.png
 │  │  ├─ HotJigaboo.jpg
 │  │  ├─ jemoepeps.png
+│  │  ├─ kratos.png
 │  │  ├─ NightSky.jpg
 │  │  ├─ nyebe_white.png
 │  │  ├─ snorlax jimbo.png
 │  │  ├─ Star Wars Galaxy Background.jpg
-│  │  └─ SungJinWoo.png
+│  │  ├─ SungJinWoo.png
+│  │  └─ Volcano.png
 │  └─ js
 │     └─ script.js
 ├─ doc
 │  └─ emmet.txt
 ├─ index.html
 ├─ pages
-│  ├─ footer-gallery
+│  ├─ Jigaboo1
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -144,7 +156,52 @@ WD-SEATWORK-3-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  └─ header-gallery
+│  ├─ Jigaboo2
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  ├─ Jigaboo3
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  ├─ Jigaboo4
+│  │  ├─ assets
+│  │  │  ├─ css
+│  │  │  │  └─ style.css
+│  │  │  ├─ img
+│  │  │  │  ├─ Dousy.jpg
+│  │  │  │  ├─ heatblast.png
+│  │  │  │  ├─ HotJigaboo.jpg
+│  │  │  │  ├─ jemoepeps.png
+│  │  │  │  ├─ nyebe_white.png
+│  │  │  │  └─ snorlax jimbo.png
+│  │  │  └─ js
+│  │  │     ├─ script.js
+│  │  │     └─ scripts.js
+│  │  └─ index.html
+│  └─ JigabooGallery
 │     ├─ assets
 │     │  ├─ css
 │     │  │  └─ style.css
