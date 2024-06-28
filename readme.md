@@ -79,7 +79,8 @@ The goal is to make a cool Hero and Card Display Website.
 ## Website Instructions:
 
 You will first be sent to the home page where you can read my About Me and other stuff,
-once you are done reading, you can check out The Noir's and the Noir's Gallery by cicking the buttons on the top right, Navigate however you wish, and hope you enjoy my work!.
+once you are done reading, you can check out either Noir's Card Gallery or Noir's Card Gallery by clicking the buttons on the top right,
+Noir's Card Gallery contains 5 static designs while the Noir's Card Gallery contains animated designs, navigate however you wish, and hope you enjoy my work!
 
 ### File Structure
 
