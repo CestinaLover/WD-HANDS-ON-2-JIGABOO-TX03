@@ -119,7 +119,14 @@ WD-HANDS-ON-2-JIGABOO-TX03
 ├─ assets
 │  ├─ css
 │  │  └─ style.css
+│  ├─ fonts
+│  │  ├─ GODOFWAR.TTF
+│  │  ├─ Halo.ttf
+│  │  └─ SoloLevelDemo.otf
 │  ├─ img
+│  │  ├─ AdultWoo.jpg
+│  │  ├─ Arkham.jpg
+│  │  ├─ Batman.png
 │  │  ├─ Chief.png
 │  │  ├─ DarkSky.jpg
 │  │  ├─ Dousy.jpg
@@ -134,11 +141,16 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │  │  ├─ snorlax jimbo.png
 │  │  ├─ Star Wars Galaxy Background.jpg
 │  │  ├─ SungJinWoo.png
-│  │  └─ Volcano.png
+│  │  ├─ TeenWoo.jpg
+│  │  ├─ Volcano.png
+│  │  └─ youngWoo.jpg
 │  └─ js
 │     └─ script.js
-├─ card-gallery
-│  ├─ Noir1
+├─ doc
+│  └─ emmet.txt
+├─ index.html
+├─ pages
+│  ├─ Card Gallery
 │  │  ├─ assets
 │  │  │  ├─ css
 │  │  │  │  └─ style.css
@@ -153,52 +165,7 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │  │  │     ├─ script.js
 │  │  │     └─ scripts.js
 │  │  └─ index.html
-│  ├─ Noir2
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Noir3
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  ├─ Noir4
-│  │  ├─ assets
-│  │  │  ├─ css
-│  │  │  │  └─ style.css
-│  │  │  ├─ img
-│  │  │  │  ├─ Dousy.jpg
-│  │  │  │  ├─ heatblast.png
-│  │  │  │  ├─ HotJigaboo.jpg
-│  │  │  │  ├─ jemoepeps.png
-│  │  │  │  ├─ nyebe_white.png
-│  │  │  │  └─ snorlax jimbo.png
-│  │  │  └─ js
-│  │  │     ├─ script.js
-│  │  │     └─ scripts.js
-│  │  └─ index.html
-│  └─ NoirGallery
+│  └─ Hero Gallery
 │     ├─ assets
 │     │  ├─ css
 │     │  │  └─ style.css
@@ -213,9 +180,6 @@ WD-HANDS-ON-2-JIGABOO-TX03
 │     │     ├─ script.js
 │     │     └─ scripts.js
 │     └─ index.html
-├─ doc
-│  └─ emmet.txt
-├─ index.html
 └─ readme.md
 
 ```
