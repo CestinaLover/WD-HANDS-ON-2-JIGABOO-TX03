@@ -590,7 +590,7 @@ button6:active {
     transform: translate(-50%, -50%);
     width: 300px; /* Adjust size as needed */
     height: auto;
-    animation: fireEffect 2s forwards;
+    animation: static-fireEffect 2s forwards;
 }
 
 .image-container {
